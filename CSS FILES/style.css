@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(243, 214, 248);
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    margin: 7px 40px;
+}
+
+.logo a{
+    color: rgb(57, 9, 65);
+    font-size: 35px;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.Navbar-left-side{
+    list-style: none;
+}
+
+.Navbar-right-side ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 75px;
+    list-style: none;
+    margin: 10px 40px;
+    transition: transform 0.5s ease;
+}
+
+.Navbar-right-side ul :hover {
+    transform: scale(1.2); 
+  }
+
+.Navbar-right-side ul li a{
+    color: black;
+    font-size: 20px;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.Home-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 670px;
+}
+
+#name{
+    color: rgb(57, 9, 65);
+    font-size: 70px;
+    font-weight: 700;
+}
+
+#name span{
+    color: rgb(114, 9, 95);
+    font-size: 70px;
+    font-weight: 700;
+}
+
+#element{
+    color: rgb(57, 9, 65);
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.left-section p{
+    color: rgb(12, 2, 14);
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.left-section{
+    padding-bottom: 37px;
+    margin-left: 220px;
+}
+
+
+.right-section img{
+    width: 500px;
+    height: 500px;
+    margin-right: 60px;
+    padding-bottom: 50px;
+}
+
+/*button*/
+ button{
+    background-color: #702180;
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 20px;
+    border: solid black 2px;
+ }
+
+
+ /* project section */
+
+.project-container{
+    display: flex;
+    justify-content: space-around;
+ }
+
+h1{
+    color: rgb(57, 9, 65);
+    font-size: 50px;
+    font-weight: 600;
+    margin-left: 630px;
+    margin-top: 40px;
+}
+
+.project{
+    height: 600px;
+    width: 400px;
+    margin-top: 40px;
+    border-radius: 25px;
+    border: solid black 2px;
+}
+
+.project-img{
+    width: 400px;
+    height: 250px;
+    background: white;
+    border-top-left-radius: 25px; 
+    border-top-right-radius: 25px;
+}
+
+.project-img img{
+    width: 400px;
+    height: 250px;
+    border-top-left-radius: 25px; 
+    border-top-right-radius: 25px;
+}
+
+.project-info{
+    width: 400px;
+    height: 350px;
+    background: linear-gradient(180deg, rgb(205, 153, 237), white);
+    border-bottom-left-radius: 25px; 
+    border-bottom-right-radius: 25px;
+    line-height: 1.5;
+}
+
+.project-info h3{
+    color: rgb(57, 9, 65);
+    margin-left: 70px;
+    font-size: 30px;
+}
+
+.project-info p{
+    color: rgb(57, 9, 65);
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.buttons-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 123px;
+}
+
+.view-project{
+    color: white;
+}
+
+.GitHub-repo{
+    color: white;
+}
+
+/* skill section */
+
+.skill-container{
+    display: flex;
+    gap: 50px;
+    height: 150px;
+    width: 1390px;
+    margin-left: 60px;
+    border-radius: 25px;
+    border: solid rgb(57, 9, 65) 3px;
+}
+
+.skill-icon img{
+    height: 100px;
+    width: 100px;
+    margin: 20px 5px; 
+}
+
+/*about section*/
+
+.personal-info{
+    display: flex;
+    gap: 40px;
+    margin-top: 40px;
+    background-color:  rgb(205, 153, 237);
+    border-radius: 25px;
+    height: 600px;
+    width: 1400px;
+    margin-left: 60px;
+}
+
+.left-side img{
+    height: 570px;
+    width: 500px;
+    margin-left: 50px;
+}
+.left-side{
+    border-radius: 25px;
+}
+
+.right-side{
+    width: 550px;
+    margin-left: 200px;
+    height: 600px;
+    border-radius: 25px;
+}
+
+.right-side p{
+    font-size: 30px;
+    line-height: 60px;
+    margin:  10px 10px 10px 10px;
+    font-weight: 500;
+}
+/*contact section/
+/* Form Container */
+.contact-container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+/* Form Header */
+h2 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+/* Input Groups */
+.input-group {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    font-size: 14px;
+    color: #555;
+}
+
+.input-group input, 
+.input-group textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Submit Button */
+button {
+    width: 100%;
+    padding: 10px;
+    background: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #218838;
+}
